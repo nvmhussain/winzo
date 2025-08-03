@@ -43,7 +43,7 @@ const BannerOne = ({ bannerData = {}, className = "" }) => {
                 ))}
               </p>
               <a href="#" className="banner-one__btn">
-                Get Started
+                Download Now
               </a>
             </div>
           </Col>
