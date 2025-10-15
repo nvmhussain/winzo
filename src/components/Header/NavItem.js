@@ -22,7 +22,7 @@ const NavItem = ({ navItem = {} }) => {
     <li className={current === href ? "current scrollToLink" : "scrollToLink"}>
       {href.includes("#") ? (
         <a href={href}>
-          {title}{" "}
+          {title}{" Hussain"}
           {subItems?.length > 0 && (
             <button onClick={handleActive} className="sub-nav-toggler">
               <span className="sr-only">Toggle navigation</span>{" "}
